@@ -1,7 +1,7 @@
 void setup() {
   size(600, 600);
   background(255);
-  stroke(0, 100);
+  stroke((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
   drawFractal(0, 0, width, 6);
 }
 
